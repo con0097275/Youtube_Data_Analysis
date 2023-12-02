@@ -28,3 +28,5 @@ https://www.kaggle.com/datasets/datasnaek/youtube-new
 ## Architecture Diagram
 <img src="architecture.jpeg">
 
+## DashBoard (in AWS QuickSight)
+<img src="simpleDashboard.png">
