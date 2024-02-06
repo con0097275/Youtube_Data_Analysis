@@ -28,5 +28,10 @@ https://www.kaggle.com/datasets/datasnaek/youtube-new
 ## Architecture Diagram
 <img src="images/architecture.jpeg">
 
+## Detail
+- Upload the raw Youtube data (downloaded from Kaggle) into AWS S3 using AWS cli. Write some Lambda Functions and Glue jobs to do some transformation the data that stored in S3 into cleaned Version (in Parquet Format). Use GLue Crawler to crawl the data and build a catalog on top of it. Write the SQL query and execute to understand the data using AWS Athena.
+- Build an ETL pipeline to process the cleaned bucket in S3 (join 2 table) and save it into reporting bucket (in parquet format) using amazon Glue Studio.
+- Visualized results in dashboards using AWS Quicksight.
+
 ## DashBoard (in AWS QuickSight)
 <img src="images/simpleDashboard.png">
